@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/calculadora.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="corpo">
+        <div class="divisoria1">
+            <p>MULTIPLICAÇÃO</p>
+            <div class="espacos_1">
+                <input type="number" id="numero1" required>
+                <input type="number" id="numero2" required>
+            </div>
+            <div class="botao_1"><input type="button" value="MULTIPLICAR" onclick="multiplicar()"></div>
+            <div id="resposta_multiplicacao"></div>
+        </div>
+
+        <div class="divisoria2">
+            <p>FATORIAL</p>
+            <div class="espacos_2">
+                <input type="number" id="numero3" required>
+            </div>
+            <div class="botao_2">
+                <input type="button" value="FATORIAL" onclick="fatorial()">
+            </div>
+            <div id="resposta_fatorial"></div>
+        </div>
+    </div>
+
+    <script src="/js/calculadora.js"></script>
+</body>
+</html>

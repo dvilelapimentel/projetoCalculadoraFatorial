@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0C134F;
+    margin: 20%;
+    margin-left: 30%;
+    margin-top: 6%;
+}
+
+.divisoria1{
+    background-color: #C4B0FF;
+    border: 35px solid white;
+    padding: 3%;
+    width: 60%;
+}
+
+p{
+    color: #560170;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+input[type='number']{
+    background-color: #D4ADFC;
+    font-size: 20px;
+    padding: 1%;
+    text-align: center;
+}
+
+#resposta_multiplicacao, #resposta_fatorial{
+    font-size: 25px;
+    padding-top: 3%;
+    text-align: center;
+}
+
+input[type='button']{
+    background-color: #B799FF;
+    color: #5C469C;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 4%;
+    padding: 2%;
+    text-align: center;
+}
+
+.divisoria2{
+    background-color: #C4B0FF;
+    border: 35px solid white;
+    margin-top: 5%;
+    padding: 3%;
+    width: 60%;
+}
